@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Call Sorte">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Call Sorte</title>
+</head>
+
+<body>
+
+    <main class="comteiner">
+    
+        <div class="gerador-de-numeros-de-celular">
+            <p>+</p>
+            <p id="DDI"></p>
+            <p>(</p>
+            <p id="DDD"></p>
+            <p>)</p>
+            <p>9</p>
+            <p id="numero1" class="N4">0</p>
+            <p id="numero2" class="N5">0</p>
+            <p id="numero3" class="N6">0</p>
+            <p id="numero4" class="N7">0</p>
+            <p>-</p>
+            <p id="numero5" class="N8">0</p>
+            <p id="numero6" class="N9">0</p>
+            <p id="numero7" class="N10">0</p>
+            <p id="numero8" class="N11">0</p>
+        </div>
+
+        <div class="campo-de-selecionar-DDDS">
+            <label for="input-DDI">DDI</label>
+            <input class="caixaInput" type="text" id="input-DDI" placeholder="Digite DDI aqui!" onkeypress="return filtroTeclas(event)">
+            <label for="input-DDD">DDD</label>
+            <input class="caixaInput" type="text" id="input-DDD" placeholder="Digite DDD aqui!" onkeypress="return filtroTeclas(event)">
+            <button class="btnGerador" onclick="gerador(), inputDDD(), inputDDI()">Geri Seu Numero</button>
+            <button class="btnReniciar" onclick="reniciar()">reniciar</button>
+        </div>
+    </main>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

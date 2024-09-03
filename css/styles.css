@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Honk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gerador-de-numeros-de-celular{
+    background: linear-gradient(107deg, rgb(3, 7, 201), rgb(13, 122, 212) 50.71%);
+    margin: 20px;
+    border: solid 2px #000;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: "Abril Fatface", serif;
+}
+
+.btnGerador,
+.btnReniciar,
+.caixaInput{
+    font-size: 30px;
+    margin: 0px 20px;
+    border: solid 2px #000; 
+}
+
+.btnGerador{
+    height: 50px;
+    width: 250px;
+    border-radius: 3cm;
+    font-family: "Honk", system-ui;
+}
+
+.btnReniciar{
+    height: 50px;
+    width: 150px;
+    border-radius: 3cm;
+    font-family: "Honk", system-ui;
+}
+
+.caixaInput{
+    height: 50px;
+    width: 150px;
+    font-family: "Abril Fatface", serif;
+    text-size-adjust: 30px;
+}
+.btnGerador:hover,
+.btnReniciar:hover{
+    background: linear-gradient(100deg, rgb(1, 14, 124), rgb(32, 71, 243) 50.71%);
+    color: #fff;
+    border: solid 2px #fff;
+}
+.campo-de-selecionar-DDDS{
+    background: linear-gradient(107deg, rgb(13, 122, 212), rgb(3, 7, 201) 90.71%);
+    border: #000;
+    border-radius: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+}
+.comteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+::-webkit-input-placeholder {
+    font-size: 18px;
+}
