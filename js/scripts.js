@@ -326,5 +326,5 @@ function filtroTeclas (event) {
 }
 
 function reniciar(){
-    location.href = "./indexcallsorte.html";
+    location.href = "./index.html";
 }
