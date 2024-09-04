@@ -75,7 +75,7 @@
     font-size: 18px;
 }
 
-@media (max-width: 292px) {
+@media (max-width: 350px) {
     .gerador-de-numeros-de-celular {
         background: linear-gradient(107deg, rgb(3, 7, 201), rgb(13, 122, 212) 50.71%);
         margin: 20px;
