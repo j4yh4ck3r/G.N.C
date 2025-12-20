@@ -8,12 +8,12 @@ A ideia surgiu como forma de praticar meus conhecimentos já mais evoluídos, te
    - Interface simples para visualizar os números.
 
 ## Estrutura do projeto
-
-G.N.C/ 
-├── index.html   # Página principal 
-├── style.css    # Estilos da interface 
-└── script.js    # Lógica de geração
-
+````
+   G.N.C/ 
+   ├── index.html   # Página principal 
+   ├── style.css    # Estilos da interface 
+   └── script.js    # Lógica de geração
+````
 
 ## Como rodar
 1. Clone este repositório:
